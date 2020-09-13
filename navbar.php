@@ -1,20 +1,5 @@
-<!DOCTYPE html>
-<html lang="fr" dir="ltr">
-  <head>
-    <title>Delphine Jacquot-Crampes Coaching et formation</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-	<link rel="stylesheet" href="css/w3.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <style>
-    h1{font-family: Raleway; sans-serif; color: white; font-size: 75px; padding-left: 100px; padding-top: 100px;}
-  </style>
-  <body>
-
-  <!-- Navbar -->
+<?php
+  echo '
   <div class="w3-top">
     <div class="w3-bar w3-green w3-card w3-left-align w3-large">
       <a href="#" class="w3-bar-item w3-button w3-white w3-hover-light-green w3-mobile"><i class="fa fa-home"></i></a>
@@ -22,7 +7,7 @@
         <button class="w3-button w3-hover-light-green">A propos de moi <i class="fa fa-caret-down"></i></button>
         <div class="w3-dropdown-content w3-bar-block w3-card-2 w3-light-green">
           <a href="#" class="w3-bar-item w3-button w3-hover-lime">Mon parcours</a>
-          <a href="#" class="w3-bar-item w3-button w3-hover-lime">Mes centres d'intérêts</a>
+          <a href="#" class="w3-bar-item w3-button w3-hover-lime">Mes centres d\'intérêts</a>
           <a href="#" class="w3-bar-item w3-button w3-hover-lime">Témoignages</a>
         </div>
       </div>
@@ -46,22 +31,5 @@
 
     </div>
   </div>
-
-  <!-- Header -->
-  <header class="w3-display-container">
-    <img src="assets/docs/footages/Acceuil.jpg" alt="Image d'Acceuil"  style="width:100%">
-    <div class="w3-display-topleft"><h1>Delphine Jacquot<br> Coaching</h1></div>
-  </header>
-
-  <!-- Footer -->
-  <footer class="w3-center w3-black w3-padding-64">
-    <div class="w3-large w3-section">
-      <i class="fa fa-facebook-official w3-hover-opacity"></i>
-      <i class="fa fa-instagram w3-hover-opacity"></i>
-      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-      <i class="fa fa-twitter w3-hover-opacity"></i>
-      <i class="fa fa-linkedin w3-hover-opacity"></i>
-    </div>
-  </footer>
-  </body>
-</html>
+  ';
+?>
